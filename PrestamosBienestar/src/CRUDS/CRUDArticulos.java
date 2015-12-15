@@ -20,6 +20,7 @@ public class CRUDArticulos {
     Conexion conexion;
     public CRUDArticulos(){
         conexion = new Conexion();
+        /*Prueba*/
     }
     
  
