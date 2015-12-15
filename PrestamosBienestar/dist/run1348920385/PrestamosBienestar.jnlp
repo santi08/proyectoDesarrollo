@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PrestamosBienestar.jnlp">
+  <information>
+    <title>PrestamosBienestar</title>
+    <vendor>carlos</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PrestamosBienestar.jar" size="44817" download="eager" />
+    <jar href="lib\AbsoluteLayout.jar" size="2847" download="eager" />
+    <jar href="lib\controlsfx-8.40.10.jar" size="954085" download="eager" />
+    <jar href="lib\postgresql-9.2-1002.jdbc4.jar" size="571894" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="PrestamosBienestar" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="controladores.PrestamosMain"  name="PrestamosBienestar" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="499.0" prefWidth="1202.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controladores.PrestamosController">
+   <children>
+      <TableView layoutX="14.0" layoutY="73.0" prefHeight="411.0" prefWidth="1170.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <TextField layoutX="14.0" layoutY="27.0" promptText="codigo cliente" />
+      <Button layoutX="173.0" layoutY="27.0" mnemonicParsing="false" text="Buscar" />
+      <Button layoutX="1079.0" layoutY="27.0" mnemonicParsing="false" text="Nuevo prestamo" />
+   </children>
+</AnchorPane>

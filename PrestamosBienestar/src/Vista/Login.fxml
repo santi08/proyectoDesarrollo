@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="193.0" prefWidth="425.0" styleClass="fondo" stylesheets="@../estilos/Estilos.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.LoginController">
+   <children>
+      <Button fx:id="btnIngresar" layoutX="340.0" layoutY="154.0" mnemonicParsing="false" onAction="#ingresar" text="Ingresar" />
+      <TextField layoutX="189.0" layoutY="43.0" prefHeight="25.0" prefWidth="195.0" />
+      <PasswordField layoutX="189.0" layoutY="97.0" prefHeight="25.0" prefWidth="195.0" />
+      <ImageView fitHeight="165.0" fitWidth="142.0" layoutX="12.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../estilos/univalle-rojopuro-159x226.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
